@@ -13,7 +13,7 @@ const initialState = [
         id: 2,
         title: "Second Post",
         content: "More text",
-        date: sub(new Date(), { minutes: 10 }).toISOString(),
+        date: sub(new Date(), { minutes: 5 }).toISOString(),
     },
 ];
 

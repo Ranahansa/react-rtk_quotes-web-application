@@ -4,8 +4,8 @@ import { IoHome } from "react-icons/io5";
 
 const Navigation = () => {
     return (
-        <nav className="bg-gray-800 py-3 rounded-md ">
-            <div className="container mx-auto px-4 flex justify-between">
+        <nav className="bg-gray-800 py-3 rounded-md fixed top-2 w-11/12">
+            <div className="container px-4 flex justify-between">
                 <div className="text-white font-bold">My Blog</div>
                 <ul className="flex space-x-4">
                     <li>
