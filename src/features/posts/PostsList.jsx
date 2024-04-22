@@ -16,6 +16,7 @@ const PostsList = () => {
             <p className="text-gray-700">{post.content.substring(0, 100)}...</p>
             <p className='text-gray-700 text-right font-bold'>
                 <PostAuthor userId = {post.userId} />
+                <br />
                 <TimeAgo timestamp = {post.date} />
             </p>
         </article>
