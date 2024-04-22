@@ -1,8 +1,11 @@
 import React from 'react'
+import PostsList from './features/posts/PostsList'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <PostsList />
+    </div>
   )
 }
 
