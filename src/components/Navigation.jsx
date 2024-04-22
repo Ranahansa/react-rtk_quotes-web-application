@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { IoHome } from "react-icons/io5";
 
 const Navigation = () => {
     return (
@@ -9,7 +10,8 @@ const Navigation = () => {
                 <ul className="flex space-x-4">
                     <li>
                         <Link to="/" className="text-white hover:text-gray-300">
-                            Posts List
+                            <IoHome 
+                                size={25}/>
                         </Link>
                     </li>
                     <li>
