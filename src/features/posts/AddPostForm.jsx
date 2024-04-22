@@ -15,7 +15,11 @@ const AddPostForm = () => {
 
     const onSavePostClicked = () => {
         if (title && content) {
-            dispatch(postAdded({ id: nanoid(), title, content }))
+            dispatch(postAdded({ 
+                id: nanoid(), 
+                title, 
+                content }))
+                
             setTitle('')
             setContent('')
             navigate('/')
@@ -23,7 +27,7 @@ const AddPostForm = () => {
     }
 
     return (
-        <div className="bg-white rounded-lg shadow-md p-6">
+        <div className="bg-white rounded-lg shadow-md p-6 mt-6">
             <h2 className="text-2xl font-bold mb-4">Add a New Post</h2>
             <form>
                 <div className="mb-4">

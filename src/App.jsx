@@ -3,6 +3,7 @@ import PostsList from './features/posts/PostsList';
 import AddPostForm from './features/posts/AddPostForm';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 
 
 const App = () => {
@@ -14,7 +15,9 @@ const App = () => {
           <Route path="/add" element={<AddPostForm />} />
           <Route path="/" element={<PostsList />} />
         </Routes>
+        <Footer />
       </div>
+
     </Router>
   );
 };
